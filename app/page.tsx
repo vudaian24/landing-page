@@ -1,5 +1,7 @@
 import Image from "next/image";
 
+const url_gpa_cpa = "https://seee-grade.streamlit.app/";
+
 export default function Home() {
   return (
     <div className="relative z-10">
@@ -22,7 +24,7 @@ export default function Home() {
               </p>
               <div className="mt-10 grid gap-4 sm:grid-cols-1 md:grid-cols-2 text-base md:text-lg animate-fadeInUp delay-[1100ms]">
                 <a
-                  href="#"
+                  href={url_gpa_cpa}
                   className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition"
                 >
                   Dự đoán GPA kỳ tiếp theo và CPA tốt nghiệp
