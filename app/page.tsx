@@ -1,6 +1,7 @@
 import Image from "next/image";
 
 const url_gpa_cpa = "https://seee-grade.streamlit.app/";
+const url_seee_grade = "https://seee-grade.streamlit.app/";
 
 export default function Home() {
   return (
@@ -30,7 +31,7 @@ export default function Home() {
                   Dự đoán GPA kỳ tiếp theo và CPA tốt nghiệp
                 </a>
                 <a
-                  href="#"
+                  href={url_seee_grade}
                   className="inline-block px-6 py-3 bg-blue-600 text-white rounded-lg shadow hover:bg-blue-700 transition"
                 >
                   Dự đoán điểm số môn học
